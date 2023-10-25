@@ -1,0 +1,24 @@
+{
+  "vueSetup": {
+    "prefix": "VueSetup",
+    "body": [
+      "<template>",
+      "\t<div class=\"${1:${TM_DIRECTORY/.*[\\\\\\\\|\\\\/](.*)[\\\\\\\\|\\\\/]?$/$1/}}\">",
+      "\t\t",
+      "\t</div>",
+      "</template>",
+      "<script lang=\"ts\" setup>",
+      "interface ${1/.*/${0:/pascalcase}/}Props {",
+      "\t",
+      "}",
+      "\t",
+      "defineProps<${1/.*/${0:/pascalcase}/}Props>()",
+      "\t",
+      "</script>",
+      "<style lang=\"scss\" scoped>",
+      "\t",
+      "</style>"
+    ],
+    "description": "VueSetup"
+  }
+}

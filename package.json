@@ -1,0 +1,28 @@
+{
+  "name": "vue3-snippets",
+  "displayName": "vue3-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "extensions": [
+          ".vue"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  }
+}
