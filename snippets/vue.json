@@ -1,6 +1,6 @@
 {
   "vueContent": {
-    "prefix": "VueContent",
+    "prefix": "vueContent",
     "body": [
       "<template>",
       "\t<div class=\"${1:${TM_DIRECTORY/.*[\\\\\\\\|\\\\/](.*)[\\\\\\\\|\\\\/]?$/$1/}}\">",
@@ -19,16 +19,21 @@
       "\t",
       "</style>"
     ],
-    "description": "VueContent"
+    "description": "vueContent"
   },
-  "scriptTs": {
-    "prefix": "scriptTs",
+  "scriptTsSetup": {
+    "prefix": "scriptTsSetup",
     "body": ["<script lang=\"ts\" setup>", "\t", "</script>"],
-    "description": "script setup lang=ts"
+    "description": "script lang='ts' setup"
   },
-  "styleScss": {
-    "prefix": "styleScss",
+  "styleScssScoped": {
+    "prefix": "styleScssScoped",
     "body": ["<style lang=\"scss\" scoped>", "\t", "</style>"],
     "description": "style lang=scss scoped"
+  },
+  "styleLessScoped": {
+    "prefix": "styleLessScoped",
+    "body": ["<style lang=\"less\" scoped>", "\t", "</style>"],
+    "description": "style lang='less' scoped"
   }
 }

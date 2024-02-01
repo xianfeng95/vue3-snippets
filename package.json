@@ -1,8 +1,10 @@
 {
-  "name": "vue3-snippets",
-  "displayName": "vue3-snippets",
+  "name": "vue3-snippets-vscode",
+  "displayName": "vue3 snippets vscode",
   "description": "",
   "version": "0.0.1",
+  "publisher": "atlantis",
+  "icon": "img/logo.png",
   "engines": {
     "vscode": "^1.83.0"
   },
