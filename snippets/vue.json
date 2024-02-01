@@ -1,6 +1,20 @@
 {
-  "vueContent": {
-    "prefix": "vueContent",
+  "vueInit": {
+    "prefix": "vueInit",
+    "body": [
+      "<template>",
+      "\t",
+      "</template>",
+      "<script lang=\"ts\" setup>",
+      "\t",
+      "</script>",
+      "<style lang=\"scss\" scoped>",
+      "\t",
+      "</style>"
+    ]
+  },
+  "vueIndexInit": {
+    "prefix": "vueIndexInit",
     "body": [
       "<template>",
       "\t<div class=\"${1:${TM_DIRECTORY/.*[\\\\\\\\|\\\\/](.*)[\\\\\\\\|\\\\/]?$/$1/}}\">",
@@ -20,6 +34,11 @@
       "</style>"
     ],
     "description": "vueContent"
+  },
+  "template": {
+    "prefix": "template",
+    "body": ["<template>", "\t", "</template>"],
+    "description": "template"
   },
   "scriptTsSetup": {
     "prefix": "scriptTsSetup",

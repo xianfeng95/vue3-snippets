@@ -2,7 +2,7 @@
   "name": "vue3-snippets-vscode",
   "displayName": "vue3 snippets vscode",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "atlantis",
   "icon": "img/logo.png",
   "engines": {
@@ -24,6 +24,30 @@
       {
         "language": "vue",
         "path": "./snippets/vue.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
       }
     ]
   }

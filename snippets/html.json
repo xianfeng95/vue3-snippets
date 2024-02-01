@@ -1,0 +1,12 @@
+{
+  "routerLink": {
+    "prefix": "routerLink",
+    "body": ["<router-link :to=\"$1\">$2</router-link>"],
+    "description": "routerLink"
+  },
+  "routerView": {
+    "prefix": "routerView",
+    "body": ["<router-view></router-view>"],
+    "description": "routerView"
+  }
+}
