@@ -2,7 +2,7 @@
 
 Improving efficiency for Vue development
 
-<img src="https://cdn.jsdelivr.net/gh/xianfeng95/vue3-snippets@master/img/video.mov.gif />
+<img src="https://cdn.jsdelivr.net/gh/xianfeng95/vue3-snippets@master/img/video.mov.gif" />
 
 ### vue
 
