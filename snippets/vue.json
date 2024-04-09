@@ -30,10 +30,12 @@
       "\t",
       "</script>",
       "<style lang=\"scss\" scoped>",
+      ".${1}{",
       "\t",
+      "}",
       "</style>"
     ],
-    "description": "vueContent"
+    "description": "vueInit"
   },
   "template": {
     "prefix": "template",
